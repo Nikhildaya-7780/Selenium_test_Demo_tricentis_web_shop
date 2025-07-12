@@ -1,7 +1,7 @@
 # utils/browser_factory.py
 from selenium import webdriver
 
-def create_browser(browser_name="chrome", headless=False):
+def create_browser(browser_name="chrome", headless=True):
     if browser_name == "chrome":
         options = webdriver.ChromeOptions()
         if headless:

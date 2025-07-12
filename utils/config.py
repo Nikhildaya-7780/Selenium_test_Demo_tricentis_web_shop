@@ -8,7 +8,7 @@ BASE_URL = "http://demowebshop.tricentis.com"
 BROWSER = os.getenv("BROWSER", "chrome")
 
 # Headless mode: True or False
-HEADLESS = os.getenv("HEADLESS", "false").lower() == "true"
+HEADLESS = os.getenv("HEADLESS", "True").lower() == "true"
 
 # Default timeout for waits
 TIMEOUT = int(os.getenv("TIMEOUT", "10"))
