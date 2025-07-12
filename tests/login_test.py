@@ -28,7 +28,7 @@ def test_web_page_end_to_end(driver, base_url):
     billing_process = billing_process.enter_details_and_continue(user_details, card_details)
     confirmation_page = OrderConfirmationPage(driver)
     confirmation_text = confirmation_page.get_confirmation_text()
-    time.sleep(3)
+    time.sleep(10)
 
 
 
