@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 🧪 Running Tests
 
-pytest tests/login_test.py::test_valid_login
+pytest tests/login_test.py::test_web_page_end_to_end
 
 
 Project structure:
